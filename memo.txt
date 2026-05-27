@@ -1,0 +1,10 @@
+アップデート用
+npm install zenn-cli@latest
+
+以下のコマンドによりmarkdownファイルを簡単に作成できます。
+npx zenn new:article
+slugを指定する場合（以下の場合は　what-is-slug　になる）
+npx zenn new:article --slug what-is-slug
+
+ブラウザでプレビューするためには次のコマンドを実行します。
+npx zenn preview
