@@ -8,3 +8,13 @@ npx zenn new:article --slug what-is-slug
 
 ブラウザでプレビューするためには次のコマンドを実行します。
 npx zenn preview
+
+記事の追加方法
+
+git add .
+
+git commit -m "新記事追加"
+
+(-m "新記事追加"：「-m」はGit内部にコミットメッセージが保存されます。)
+
+git push
